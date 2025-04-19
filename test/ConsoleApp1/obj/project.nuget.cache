@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XYyN5F/Q8d0=",
+  "success": true,
+  "projectFilePath": "/Users/th/Desktop/613325 – Applications Developer Coding Challenge/test/ConsoleApp1/ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "/Users/th/.nuget/packages/csvhelper/33.0.1/csvhelper.33.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

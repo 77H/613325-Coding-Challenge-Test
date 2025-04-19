@@ -1,0 +1,5 @@
+StaffID,Name,Date,ShiftStart,ShiftEnd
+101,John Doe,2025-04-14,08:00,16:00
+102,Jane Smith,2025-04-14,09:00,17:30
+101,John Doe,2025-04-15,08:30,17:00
+102,Jane Smith,2025-04-15,09:15,16:45
