@@ -5,6 +5,7 @@ using CsvHelper.Configuration;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using WorkLogParser;
 
 // using (var reader = new StreamReader("path\\to\\file"))
 // using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
@@ -58,6 +59,32 @@ namespace WorkLogParser
     }
 }
 
+class Program
+{
+    static void Main(string[] args)
+    {
+        var path = "/Users/th/Desktop/613325 - Applications Developer Coding Challenge/test/ConsoleApp1/work_log.csv";
+
+        var entries = new List <WorkLogEntry>();
+
+        try
+        {
+            using (var reader = new StreamReader(path))
+            using (var csv = new CsvReader(reader, new CsvConfiguration(CultureInfo.InvariantCulture)
+            {
+                HeaderValidated = null,
+                MissingFieldFound = null,
+            }))
+            {
+                
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine($"Error Occured: {e.Message}");
+        }
+    }
+}
 
 //     class Program
 //     {
